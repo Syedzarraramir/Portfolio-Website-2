@@ -1,0 +1,70 @@
+/* Navbar Custom Styles */
+.navbar-custom {
+    background-color: transparent; /* Ensure the navbar background is transparent */
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #d3d3d3;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: #ffffff;
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin: 6px auto;
+}
+
+/* Hero Section Styles */
+.hero {
+    min-width: 100%;
+    min-height: 80vh; /* Adjust to ensure the hero section covers a good portion of the viewport height */
+    background-image: url('./images/Back-Ground.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px; /* Optional: Add padding if needed */
+}
+
+/* Additional Styles for `.alam` */
+.alam {
+    font-weight: bolder;
+}
+
+.alam span {
+    color: red;
+}
+
+/* Ensure the rest of the body content is styled properly */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Optional: Style for Bootstrap containers if needed */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.listStyle {
+    display: flex;
+    justify-content: space-around;
+}
+.listStyle li {
+    list-style: none;
+    margin-right: 0.5rem;
+    font-size: 15px;
+    margin-top: -50px;
+    font-weight: bolder;
+}
