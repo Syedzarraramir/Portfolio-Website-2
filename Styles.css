@@ -168,3 +168,12 @@ span {
     margin-right: 15px;
     transform: scale3d(1.1);
 }
+.frontEnd {
+    color: rgb(176, 150, 117);
+}
+.about, .frontEnd {
+    text-align: center;
+}
+.about {
+    text-decoration: wavy;
+}
