@@ -120,7 +120,9 @@ span {
     width: 80%;
     border-radius: 50px;
 }
-.forBackground {
+.forBackground:hover {
+    transform: scale3d(1.1, 1.1, 1.1); /* Scaling equally on all axes */
+    transition: transform 0.3s ease; /* Smooth transition */
 }
 .projectDescription {
     background: linear-gradient(to left, rgb(11, 5, 89), rgb(145, 118, 118));
@@ -130,12 +132,39 @@ span {
     padding: 10px;
     
 }
+.project:hover {
+    transform: scale3d(0.9, 0.9, 0.9); /* Scaling equally on all axes */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
 .project {
     background-color: rgb(0, 101, 101);
     margin-bottom: 20px;
 }
 .forcolor {
     background: linear-gradient(to bottom, rgb(130, 128, 2), rgb(149, 224, 1));
-
 }
-
+.mainposition {
+    border: 10px solid red;
+    height: 200px;
+    z-index: 1;
+}
+.mainposition:hover {
+    transform: scale3d(1.1);
+}
+.mainposition img {
+    border: 10px solid white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -30px;
+    height: 180px;
+    border-top: none;
+    z-index: 1000;
+    transition: transform 1s ease-in;
+}
+.mainposition img:hover {
+    margin-left: 0;
+    margin-top: 0;
+    border: none;
+    margin-right: 15px;
+    transform: scale3d(1.1);
+}
