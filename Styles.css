@@ -74,6 +74,7 @@ span {
     font-size: 4rem;
     text-align: center;
     margin-top: 5px;
+    text-transform: uppercase;
 }
 .nav {
     background-color: transparent;
@@ -119,3 +120,22 @@ span {
     width: 80%;
     border-radius: 50px;
 }
+.forBackground {
+}
+.projectDescription {
+    background: linear-gradient(to left, rgb(11, 5, 89), rgb(145, 118, 118));
+    color: white;
+    font-weight: bolder;
+    text-align: inherit;
+    padding: 10px;
+    
+}
+.project {
+    background-color: rgb(0, 101, 101);
+    margin-bottom: 20px;
+}
+.forcolor {
+    background: linear-gradient(to bottom, rgb(130, 128, 2), rgb(149, 224, 1));
+
+}
+
