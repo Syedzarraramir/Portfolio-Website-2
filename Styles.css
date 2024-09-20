@@ -193,3 +193,7 @@ span {
 footer {
     background: linear-gradient(to right, rgba(62, 62, 102, 0.8), rgb(193, 193, 193))
 }
+.complete {
+    text-align: center;
+    color: rgb(59, 46, 71);
+}
