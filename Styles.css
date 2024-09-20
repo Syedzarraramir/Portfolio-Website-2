@@ -177,3 +177,19 @@ span {
 .about {
     text-decoration: wavy;
 }
+.col {
+    text-align: center;
+}
+.address {
+    height: 80%;
+}
+.col {
+    background-color: rgb(216, 220, 223);
+}
+.information:hover {
+    background-color:  rgb(155, 163, 169);
+    cursor: pointer;
+}
+footer {
+    background: linear-gradient(to right, rgba(62, 62, 102, 0.8), rgb(193, 193, 193))
+}
