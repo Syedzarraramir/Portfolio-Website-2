@@ -1,30 +1,8 @@
-/* Navbar Custom Styles */
-.navbar-custom {
-    background-color: transparent; /* Ensure the navbar background is transparent */
-    color: #ffffff;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.navbar-custom .navbar-brand,
-.navbar-custom .nav-link {
-    color: #ffffff;
-}
-
-.navbar-custom .nav-link:hover {
-    color: #d3d3d3;
-}
-
-.navbar-custom .navbar-toggler {
-    border-color: #ffffff;
-}
-
-.navbar-custom .navbar-toggler-icon {
-    background-color: #ffffff;
-    width: 30px;
-    height: 3px;
-    display: block;
-    margin: 6px auto;
-}
-
 /* Hero Section Styles */
 .hero {
     min-width: 100%;
@@ -54,26 +32,26 @@ body {
 
 /* Optional: Style for Bootstrap containers if needed */
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+overflow: hidden;
 }
-.listStyle {
+/* .listStyle {
     display: flex;
     justify-content: space-around;
 }
 .listStyle li {
     list-style: none;
     margin-right: 0.5rem;
-    font-size: 15px;
+    font-size: 30px;
     margin-top: -50px;
-    font-weight: bolder;
-}
+    font-weight: 300;
+    text-transform: uppercase;
+} */
 .hello {
     text-align: center;
     color: white;
-    font-size: 6rem;
+    font-size: 5rem;
 }
-.hello span {
+span {
     color: rgb(122, 19, 19);
 }
 .portfolioButton {
@@ -88,5 +66,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
+    margin: 5px;
+}
+.services {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.nav {
+    background-color: transparent;
+}
+.brandName h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nav-item a {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.navbar-toggler {
+    background-color: black; /* Set the background color */
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(100%); /* Inverts the default icon color to make it white */
+  }
+.servicesText {
+    text-align: justify;
 }
